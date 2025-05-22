@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills - Portfolio Alia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="picture/logowebsite.png" alt="Logo" class="logo">
+  </div>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <button id="language-toggle">EN</button>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="certificate.html">Certificate</a></li>
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <img src="picture/bannerbaru.png" alt="Page Banner" class="banner-img">
+
+  <section id="skills">
+    <div class="skills-container">
+<!-- Soft Skills Section -->
+<div class="skills-category">
+  <h3 data-en="Soft Skills" data-my="Kemahiran Insaniah">Soft Skills</h3>
+  <ul class="skills-list">
+    <li class="skill-item" data-en="🗣️ Communication" data-my="🗣️ Komunikasi">🗣️ Communication <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+    <li class="skill-item" data-en="🤝 Leadership" data-my="🤝 Kepimpinan">🤝 Leadership <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+    <li class="skill-item" data-en="💡 Problem-Solving" data-my="💡 Penyelesaian Masalah">💡 Problem-Solving <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+    <li class="skill-item" data-en="🔄 Adaptability" data-my="🔄 Kebolehsuaian">🔄 Adaptability <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+    <li class="skill-item" data-en="📝 Critical Thinking" data-my="📝 Pemikiran Kritis">📝 Critical Thinking <span class="level moderate" data-en="(Moderate)" data-my="(Sederhana)">(Moderate)</span></li>
+  </ul>
+</div>
+
+<!-- Technical Skills Section -->
+<div class="skills-category">
+  <h3 data-en="Technical Skills" data-my="Kemahiran Teknikal">Technical Skills</h3>
+  <ul class="skills-list">
+    <li class="skill-item" data-en="💻 HTML, CSS, Java, PHP" data-my="💻 HTML, CSS, Java, PHP">💻 HTML, CSS, Java, PHP <span class="level moderate" data-en="(Moderate)" data-my="(Sederhana)">(Moderate)</span></li>
+    <li class="skill-item" data-en="🖌️ UI/UX Design (Canva, SketchUp)" data-my="🖌️ Reka Bentuk UI/UX (Canva, SketchUp)">🖌️ UI/UX Design (Canva, SketchUp) <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+    <li class="skill-item" data-en="🌐 WordPress, Wix, Google Sites" data-my="🌐 WordPress, Wix, Google Sites">🌐 WordPress, Wix, Google Sites <span class="level moderate" data-en="(Moderate)" data-my="(Sederhana)">(Moderate)</span></li>
+    <li class="skill-item" data-en="🗄️ Database Management (MySQL, PHPMyAdmin)" data-my="🗄️ Pengurusan Pangkalan Data (MySQL, PHPMyAdmin)">🗄️ Database Management (MySQL, PHPMyAdmin) <span class="level beginner" data-en="(Beginner)" data-my="(Pemula)">(Beginner)</span></li>
+    <li class="skill-item" data-en="🎮 Game Development" data-my="🎮 Pembangunan Permainan">🎮 Game Development <span class="level beginner" data-en="(Beginner)" data-my="(Pemula)">(Beginner)</span></li>
+  </ul>
+</div>
+
+<!-- Language Proficiency Section -->
+<div class="skills-category">
+  <h3 data-en="Language Proficiency" data-my="Kecekapan Bahasa">Language Proficiency</h3>
+  <ul class="skills-list">
+    <li class="skill-item" data-en="Malay (Native/Fluent)" data-my="Bahasa Melayu (Bahasa Ibunda)">Malay (Native/Fluent)</li>
+    <li class="skill-item" data-en="English (Advanced)" data-my="Bahasa Inggeris (Lanjutan)">English (Advanced)</li>
+  </ul>
+</div>
+
+<!-- Microsoft Office Skills Section -->
+<div class="skills-category">
+  <h3 data-en="Microsoft Office Skills" data-my="Kemahiran Microsoft Office">Microsoft Office Skills</h3>
+  <ul class="skills-list">
+    <li class="skill-item" data-en="📝 Microsoft Word (Reports & Documentation)" data-my="📝 Microsoft Word (Laporan & Dokumentasi)">📝 Microsoft Word (Reports & Documentation) <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+    <li class="skill-item" data-en="📊 Microsoft Excel (Data Analysis & Formulas)" data-my="📊 Microsoft Excel (Analisis Data & Formula)">📊 Microsoft Excel (Data Analysis & Formulas) <span class="level moderate" data-en="(Moderate)" data-my="(Sederhana)">(Moderate)</span></li>
+    <li class="skill-item" data-en="📂 Microsoft PowerPoint (Presentations & Visual Design)" data-my="📂 Microsoft PowerPoint (Pembentangan & Reka Bentuk Visual)">📂 Microsoft PowerPoint (Presentations & Visual Design) <span class="level advanced" data-en="(Advanced)" data-my="(Lanjutan)">(Advanced)</span></li>
+  </ul>
+</div>
+
+    </div>
+  </section>
+  
+
+<style>
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column;
+    }
+  }
+</style>
+<footer>
+    <p>Copyright &copy; 2025 Portfolio Alia. All Rights Reserved.</p>
+    <div class="wandering-blob" id="wanderingBlob">
+  <div class="blob-face" id="blobFace">😊</div>
+</div>
+  </footer>
+</body>
+</html>

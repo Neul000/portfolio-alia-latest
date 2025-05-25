@@ -33,56 +33,7 @@ function openModal(index) {
   modal.style.display = "flex";
   modalImg.src = images[currentIndex].src;
 }
-
-//Blob Movement
-const blob = document.getElementById("wanderingBlob");
-const face = document.getElementById("blobFace");
-
-let isDragging = false;
-let offsetX, offsetY;
-
-// Random wandering
-function wanderBlob() {
-  if (isDragging) return;
-  const viewportWidth = window.innerWidth;
-  const randomLeft = Math.random() * (viewportWidth - 80);
-  blob.style.left = `${randomLeft}px`;
-  face.textContent = "😌";
-}
-setInterval(wanderBlob, 4000);
-
-// Dragging
-blob.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  blob.classList.add("dragging");
-  face.textContent = "😮";
-
-  const rect = blob.getBoundingClientRect();
-  offsetX = e.clientX - rect.left;
-  offsetY = e.clientY - rect.top;
-});
-
-document.addEventListener("mousemove", (e) => {
-  if (!isDragging) return;
-  blob.style.left = `${e.clientX - offsetX}px`;
-  blob.style.bottom = `${window.innerHeight - e.clientY - (blob.offsetHeight - offsetY)}px`;
-});
-
-document.addEventListener("mouseup", () => {
-  if (isDragging) {
-    isDragging = false;
-    blob.classList.remove("dragging");
-    blob.style.animation = "bounce 0.6s ease";
-    face.textContent = "😵‍💫";
-
-    setTimeout(() => {
-      blob.style.animation = "floaty 3s ease-in-out infinite";
-      face.textContent = "😊";
-    }, 600);
-  }
-});
-
-  
+ 
 //Function mobile swipe gallery
 function scrollGallery(direction) {
   const gallery = document.getElementById("leadershipGallery");

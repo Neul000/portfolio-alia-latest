@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates - Portfolio Alia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <style>
+    .cert-section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .cert-section h2 {
+      color: #af4261;
+      margin-bottom: 1rem;
+    }
+
+    .cert-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .cert-card {
+      width: 250px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .cert-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .cert-card p {
+      padding: 10px;
+      font-weight: 500;
+    }
+
+    .cert-card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="picture/logowebsite.png" alt="Logo" class="logo">
+    </div>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <button id="language-toggle">EN</button>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certificate.html">Certificate</a></li>
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <img src="picture/bannerbaru.png" alt="Page Banner" class="banner-img">
+
+  <section class="cert-section">
+    <h2 data-en="Certificates & Achievements" data-my="Sijil & Pencapaian">Certificates & Achievements</h2>
+    <p data-en="Here are some of the certificates I've earned through various workshops, events, and learning experiences." data-my="Berikut adalah beberapa sijil yang telah saya perolehi melalui bengkel, acara, dan pengalaman pembelajaran.">
+      Here are some of the certificates I've earned through various workshops, events, and learning experiences.
+    </p>
+<br>
+    <div class="cert-gallery">
+      <div class="cert-card">
+        <img src="picture/cert/adobe.jpg" alt="Certificate 1">
+        <p>Adobe Photoshop Workshop | 3 November 2023 | Smart Classroom, UiTM Puncak Perdana</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/security.png" alt="Certificate 2">
+        <p>Participants of Information Security Awareness Program | 4 January 2024 | Dewan Seminar IM, UiTM Puncak Perdana</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/aizzy.png" alt="Certificate 3">
+        <p>Drone Handling Assistant | 28–29 May & 1 June 2024 | Pusat Sains Negara | Issued by Aiszzy Electronics Sdn.Bhd</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/psn.png" alt="Certificate 4">
+        <p>Drone Handling Assistant | 28–29 May & 1 June 2024 | Pusat Sains Negara | Issued by Pusat Sains Negara</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/wp.jpg" alt="Certificate 5">
+        <p>WordPress Workshop | 26 Oktober 2024 | Dewan Seminar IM, UiTM Puncak Perdana</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/deans.png" alt="Certificate 6">
+        <p>Dean's Award | Session 2 2022/2023</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/digitalliteracy.png" alt="Certificate 7">
+        <p>Participants of Information Security Awareness Program | 27 June 2024 | Dewan Seminar J5, Kolej Jasmine</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/eusahawan.png" alt="Certificate 8">
+        <p>Completed eUsahawan Course by Malaysia Digital Economy Corporation (MDEC)</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/smf.png" alt="Certificate 9">
+        <p>Head of External Relations & Career Development Committee | March - August 2024 | Sekretariat Mahasiswa KPPIM</p>
+      </div>
+      <div class="cert-card">
+        <img src="picture/cert/susmf.png" alt="Certificate 10">
+        <p>Secretary 1 | October 2024 - February 2025 | Sekretariat Mahasiswa KPPIM</p>
+      </div>
+      <!-- Add more certificates as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2025 Portfolio Alia. All Rights Reserved.</p>
+    <div class="wandering-blob" id="wanderingBlob">
+  <div class="blob-face" id="blobFace">😊</div>
+</div>
+  </footer>
+</body>
+</html>

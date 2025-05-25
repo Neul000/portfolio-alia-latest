@@ -23,7 +23,7 @@
 }
 
   body {
-    background: linear-gradient(135deg, #f3ec78, #af4261);
+    background:rgb(58, 54, 172);
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -32,7 +32,7 @@
   }
   
   header {
-    background: linear-gradient(135deg, #979458, #af4261);
+    background: rgb(58, 54, 172);
     color: white;
     padding: 1rem 2rem;
     position: sticky;

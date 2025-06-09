@@ -243,7 +243,7 @@
     color: green;
   }
   .moderate {
-    color: orange;
+    color: rgb(250, 240, 98);
   }
   .beginner {
     color: red;
@@ -305,7 +305,7 @@
   
   /*Compatible Note*/
   .top-banner {
-  background: linear-gradient(90deg, #ffd700, #ff6347); /* yellow to reddish */
+  background: linear-gradient(90deg, #c300ff, #ff6347); /* yellow to reddish */
   color: black;
   text-align: center;
   padding: 0.6rem;
@@ -397,13 +397,13 @@
   .skill-item {
     display: inline-block;
     padding: 10px 15px;
-    background: #f3ec78;
+    background: #acc8e7;
     border-radius: 8px;
     margin: 5px;
     transition: background 0.3s ease-in-out;
   }
   .skill-item:hover {
-    background: #af4261;
+    background: #6681a0;
     color: white;
   }
 
